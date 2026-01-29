@@ -20,6 +20,8 @@ img{
     border: none;
     font-weight: 600;
     cursor: grab;
+    display: block;
+
 }
 .section-header{
     margin-bottom: 13px;
@@ -191,4 +193,37 @@ nav > ul li a{
     color: white;
     font-size: 30px;
     font-weight: 700;
+}
+
+/* deal section  */
+.deals-section{
+    margin: 50px auto;
+}
+
+.deals-section .deal{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.164),rgba(0, 0, 0, 0.701)), url(./img/deal-1.png);
+    padding: 65px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no repeat;
+    display: flex;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+.deals-section .card{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.505);
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.deals-section .card .btn{
+    width: fit-content;
+}
+.deals-section .deal:nth-child(even){
+    justify-content: end;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.164),rgba(0, 0, 0, 0.701)), url(./img/deal-2.png);
 }
