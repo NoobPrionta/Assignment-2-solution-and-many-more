@@ -71,6 +71,9 @@ nav > ul li a{
     color: #424247;
     text-decoration: none;
 }
+nav .hamburger{
+    display: none;
+}
 
 /* Banner styling  */
 

@@ -1,0 +1,39 @@
+@media screen and (max-width:1250px){
+    .container{
+    max-width: 95%;
+    margin: auto;
+}
+}
+
+@media screen and (max-width:768px){
+    nav .hamburger{
+    display: block;
+}
+nav>ul{
+    display: none;
+}
+
+.banner-section > div > form{
+    flex-direction: column;
+}
+.rounded-mic-parent .new{
+    left: 314px;
+}
+.destination div{
+    grid-column: span 6 !important;
+}
+}
+
+@media screen and (max-width:550px){
+    .rounded-mic-parent .new{
+        left: 280px;
+    }
+    .destination div{
+    grid-column: span 12 !important;
+}
+}
+@media screen and (max-width:400px){
+    .rounded-mic-parent .new{
+        left: 210px;
+    }
+}
